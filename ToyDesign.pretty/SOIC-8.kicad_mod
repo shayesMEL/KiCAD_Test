@@ -1,0 +1,212 @@
+(footprint "SOIC-8"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5 -0.5 180)
+		(layer "F.SilkS")
+		(uuid "6e2eebcf-ef39-4926-bc46-1b7ff8041c36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOIC-8"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e71b2c6c-12b0-457a-b4b1-a2d1e1a6c3a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8ecd0cf-a87e-468a-b919-cd3aeefc854a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b610e489-1e05-4143-9d0e-51595cc1325a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.705 -1)
+		(end 2.705 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d6cf32f9-a2d1-40ad-b218-899922f4e4ad")
+	)
+	(fp_line
+		(start -2.705 0.2)
+		(end -2.705 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "542f9dad-37f6-4dc9-bdb8-912d419b5c01")
+	)
+	(fp_line
+		(start -1.905 1)
+		(end -2.705 0.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dccd8192-5cf4-4320-b538-55492dd0808b")
+	)
+	(fp_line
+		(start 2.705 -1)
+		(end 2.705 1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1995257a-3ef7-4187-a768-bf6b9eb3fda3")
+	)
+	(fp_line
+		(start 2.705 1)
+		(end -1.905 1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "214d86ec-ae5a-4916-93e5-32afc481e601")
+	)
+	(fp_circle
+		(center -3.5 3)
+		(end -3.25 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6b925c5b-51ce-47fe-a161-785a2bfbd416")
+	)
+	(fp_line
+		(start -2.46 -3.95)
+		(end 2.46 -3.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "62d2868e-3fe0-488c-ad89-410a7d061033")
+	)
+	(fp_line
+		(start -2.46 3.95)
+		(end -2.46 -3.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb74a70e-9bbc-469a-85e8-90ade9bdce12")
+	)
+	(fp_line
+		(start 2.46 -3.95)
+		(end 2.46 3.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c1673f7-8524-4772-956a-4697e6b40642")
+	)
+	(fp_line
+		(start 2.46 3.95)
+		(end -2.46 3.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3de22880-c30a-4aaa-a9ac-8a0f30710856")
+	)
+	(pad "1" smd rect
+		(at -1.905 2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "48ffa528-c61e-4fbc-9dc2-5d0ac8d57319")
+	)
+	(pad "2" smd rect
+		(at -0.635 2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "bdb4fd5b-afd9-48e1-adcb-82a76289f4a1")
+	)
+	(pad "3" smd rect
+		(at 0.635 2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a1e2664d-cc79-4687-9b4b-761624e17c78")
+	)
+	(pad "4" smd rect
+		(at 1.905 2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "55f896ae-73d0-41a1-8bcb-3704c589d35b")
+	)
+	(pad "5" smd rect
+		(at 1.905 -2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "0e49316e-6507-427d-a6e5-414cd2ae1804")
+	)
+	(pad "6" smd rect
+		(at 0.635 -2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "d42c304e-f979-4ae3-ace7-eee4228f2b34")
+	)
+	(pad "7" smd rect
+		(at -0.635 -2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "5d16aee5-8398-4a7e-9d94-0ca787df2f40")
+	)
+	(pad "8" smd rect
+		(at -1.905 -2.6)
+		(size 0.6 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "987b23ce-73b4-482e-935b-57e7cfb44dce")
+	)
+	(embedded_fonts no)
+)
