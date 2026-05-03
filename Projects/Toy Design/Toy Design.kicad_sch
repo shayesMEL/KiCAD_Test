@@ -5853,6 +5853,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 210.82) (xy 340.36 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db08ad61-3690-410a-9b1d-af83d3040f46")
+	)
+	(wire
+		(pts
 			(xy 167.64 49.53) (xy 167.64 50.8)
 		)
 		(stroke
@@ -5900,6 +5910,16 @@
 			(type default)
 		)
 		(uuid "e6435dea-514b-4d8a-a3e2-4f0b1cf71122")
+	)
+	(wire
+		(pts
+			(xy 334.01 208.28) (xy 340.36 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e919b643-e2c2-4505-b149-09ed5311e769")
 	)
 	(wire
 		(pts
@@ -6237,6 +6257,30 @@
 			)
 		)
 	)
+	(global_label "SPI2_MOSI_LED"
+		(shape output)
+		(at 340.36 208.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cacd9714-471d-4a58-81ae-fca6d0f3cb8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 357.6175 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "OUT_U6"
 		(shape input)
 		(at 165.1 180.34 180)
@@ -6282,6 +6326,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "SPI2_SCK_LED"
+		(shape output)
+		(at 340.36 210.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da98fc11-f868-4d44-b830-f3bac2e676e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 356.7708 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
