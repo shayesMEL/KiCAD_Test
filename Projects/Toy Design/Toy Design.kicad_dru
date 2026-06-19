@@ -1,0 +1,4 @@
+(version 1)
+(rule Minimum_thermal_relief_spoke_count_1
+	(constraint min_resolved_spokes 1)
+)
