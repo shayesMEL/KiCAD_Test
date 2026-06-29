@@ -485,8 +485,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "ToyDesign"
+    ],
+    "pinned_symbol_libs": [
+      "Toy_Design"
+    ]
   },
   "meta": {
     "filename": "Toy Design.kicad_pro",
@@ -661,7 +665,7 @@
         "uuid": "c85456d0-c9f8-47a9-8124-8a5f769becea"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW1-2,R39-41,D4,#PWR60-66",
     "variants": []
   },
   "sheets": [
