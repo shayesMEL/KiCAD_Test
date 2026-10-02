@@ -6204,6 +6204,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 179.07) (xy 261.62 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a3c9bab-3d2d-4e6a-a632-c5e4dfb2f1ba")
+	)
+	(wire
+		(pts
 			(xy 60.96 58.42) (xy 60.96 55.88)
 		)
 		(stroke
@@ -6591,6 +6601,26 @@
 			(type default)
 		)
 		(uuid "8faae112-6e78-41ec-b4cf-7f0d7c2e6da4")
+	)
+	(wire
+		(pts
+			(xy 261.62 179.07) (xy 261.62 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925aacb6-087e-43a8-806a-49a48fa11e33")
+	)
+	(wire
+		(pts
+			(xy 261.62 180.34) (xy 259.08 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9346a95b-8bc0-4059-b820-6d7da841ccdc")
 	)
 	(wire
 		(pts
@@ -9985,7 +10015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "601k"
+		(property "Value" "675k"
 			(at 170.18 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14496,14 +14526,15 @@
 				)
 			)
 		)
-		(property "Value" "+5.6V"
-			(at 167.64 31.75 0)
+		(property "Value" "+6.2"
+			(at 170.18 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -16004,6 +16035,83 @@
 			(project "Toy Design"
 				(path "/c85456d0-c9f8-47a9-8124-8a5f769becea"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e161aba2-7c5d-47f7-85a6-41e1d41437ff")
+		(property "Reference" "#PWR070"
+			(at 265.43 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 180.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee4f0d29-8346-4e8d-97d5-0944ddaa1884")
+		)
+		(instances
+			(project "Toy Design"
+				(path "/c85456d0-c9f8-47a9-8124-8a5f769becea"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
